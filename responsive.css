@@ -1,0 +1,243 @@
+@media screen and (max-width: 440px) {
+    section{
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .section-box{
+        height: auto;
+    }
+    header{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header-logo{
+        font-size: 24px;
+        margin: 20px 0;
+    }
+    nav{
+        flex-direction: column;
+        gap:  30px;
+    }
+    .nav-items{
+        font-size: 16px;
+    }
+
+    .hero-content h3{
+        font-size: 1.2rem;
+        letter-spacing: 20px;
+    }
+    
+    .hero-content h1{
+        font-size: 3rem;
+        font-weight: 800;
+        letter-spacing: 3px;
+        margin-top: 50px;
+        line-height: 1.2;
+        text-align: center;
+    }
+    
+    .hero-content {
+        padding-top: 50px 0;
+    }
+    
+    .hero-img{
+        width: 47%;
+        margin-top: 50px;
+        z-index: 1;
+    }
+    
+    .hero-btn{
+        margin-top: 50px;
+    }
+
+    /* About Section */
+    .content-grid {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 50px 5%;
+        gap: 50px;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+  /* Join-us */
+    #join-us .content-wrap-2 {
+        padding: 50px 5%;
+    }
+    .input-1{
+        width: 85%;
+        padding: 0 30px;
+    }
+    .checkbox-wrap{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 16pxs;
+    }
+    #join-us .section-title {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-top: 10px;
+    }
+
+    /* Footer */
+    .footer-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-items{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 441px) and (max-width: 1279px) {
+    section{
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .section-box{
+        height: auto;
+    }
+    header{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header-logo{
+        font-size: 30px;
+        margin: 20px 0;
+    }
+    nav{
+        flex-direction: column;
+        gap:  30px;
+    }
+    .nav-items{
+        font-size: 24px;
+    }
+
+    .hero-content h3{
+        font-size: 1.2rem;
+        letter-spacing: 30px;
+    }
+    
+    .hero-content h1{
+        font-size: 4rem;
+        font-weight: 800;
+        letter-spacing: 3px;
+        margin-top: 50px;
+        line-height: 1.2;
+        text-align: center;
+    }
+    
+    .hero-content {
+        padding-top: 50px 0;
+    }
+    
+    .hero-img{
+        width: 47%;
+        margin-top: 50px;
+        z-index: 1;
+    }
+    
+    .hero-btn{
+        margin-top: 50px;
+    }
+
+    /* About Section */
+    .content-grid {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 50px 5%;
+        gap: 50px;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+  /* Join-us */
+    #join-us .content-wrap-2 {
+        padding: 50px 5%;
+    }
+    .input-1{
+        width: 85%;
+        padding: 0 30px;
+    }
+    .checkbox-wrap{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 16pxs;
+    }
+    #join-us .section-title {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-top: 10px;
+    }
+
+    /* Footer */
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 50px;
+        row-gap: 50px;
+    }
+    .footer-items{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+    
+    .hero-content h1{
+        font-size: 4rem;
+        letter-spacing: 20px;
+    }
+    
+    .hero-img{
+        width: 50%;
+        margin-top: -130px;
+    }
+    
+    .hero-btn{
+        margin-top: -120px;
+    }
+
+    /* About Section */
+
+    .section-title {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+  /* Join-us */
+    .input-1{
+        width: 85%;
+        padding: 0 30px;
+    }
+    .checkbox-wrap{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 16pxs;
+    }
+    #join-us .section-title {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-top: 10px;
+    }
+
+    /* Footer */
+    .footer-items{
+        font-size: 16px;
+    }
+}
